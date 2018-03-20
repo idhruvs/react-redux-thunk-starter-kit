@@ -1,7 +1,22 @@
 {
-  "name": "quiz",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-redux-thunk-starter-kit",
+  "version": "1.0.0",
+  "description": "React-Redux-Thunk-Starter Kit with zero build configuration. Start creating react+redux apps rightaway.",
+  "author": {
+    "name":"Dhruv Shah"
+  },
+  "repository":{
+    "type": "git",
+    "url":"https://github.com/DhruvS1213/react-redux-thunk-starter-kit"
+  },
+  "keywords": [
+      "react",
+      "reactjs",
+      "redux",
+      "redux-router",
+      "tachynos",
+      "redux-thunk"
+  ],
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -12,5 +27,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "license": "MIT"
 }
