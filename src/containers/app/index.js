@@ -5,12 +5,14 @@ import About from '../about'
 
 const App = () => (
   <div>
-    <header>
-      <Link to="/">Home</Link>
-      <Link to="/about-us">About</Link>
+    <header class="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
+        <nav class="f6 fw6 ttu tracked">
+            <Link class="link dim white dib mr3" to="/">Home</Link>
+            <Link class="link dim white dib mr3" to="/about-us">About</Link>
+        </nav>
     </header>
 
-    <main>
+    <main class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
       <Route exact path="/" component={Home} />
       <Route exact path="/about-us" component={About} />
     </main>

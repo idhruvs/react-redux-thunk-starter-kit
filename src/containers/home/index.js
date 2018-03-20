@@ -7,7 +7,8 @@ import { connect } from 'react-redux'
 const Home = props => (
    <div>
     <h1>Home</h1>
-    <p><button onClick={() => props.changePage()}>Go to about page via redux</button></p>
+    <p><button class="pa2 bg-light-gray link ba bw1 bg-hover-moon-gray black br3" 
+        onClick={() => props.changePage()}>Go to about page via redux</button></p>
   </div>
 )
 
