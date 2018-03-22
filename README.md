@@ -14,7 +14,8 @@ This project also contains React-Router and a skeleton code for routing a web-ap
 
 #Features
 1. Redux-state keeps track of history
-2. Stylized by Tachynos 
+2. Stylized by Tachyons 
 
-Incase you want to remove Tachynos, remove the following line from `public/index.html`
+Incase you want to remove Tachyons, remove the following line from `public/index.html`
+
 `<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css">`
